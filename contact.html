@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Chela+One&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+</head>
+
+<body>
+    <header>
+        <div class=" navbar ">
+            <div class="logo">
+                <img src="pn.png"> </div>
+            <a href="index.html">Home</a>
+            <a href="ABOUT.html">About us</a>
+            <a href="music.html">Musiq & Videos</a>
+            <a href="gallary.html">Gallary</a>
+            <a href="contact.html">Contact Us</a>
+
+        </div>
+
+    </header>
+
+
+
+    <div class="contact" data-aos="fade-down-left">
+        <h1>CONTACT ME</h1>
+        <hr width="200">
+
+        <p>"With God all things are POSSIBLE"</p>
+
+
+        <form action="https://formspree.io/f/mzbknrqe" method="POST">
+
+            <label for="fname">FirstName</label>
+
+            <input type="text" id="fname" name="firstName" placeholder="Enter your name">
+
+
+
+
+            <label for="email">E-mail</label>
+
+            <input type="text" id="email" name="_replyto" placeholder="Enter your email">
+
+            <label for="subject">Subject</label>
+
+
+            <textarea id="message" name="message" placeholder="write your message"></textarea><br>
+
+            <div class="g-recaptcha" data-sitekey="6Lf5fPgaAAAAAFWu0oCqSxRy7aND13iZHkPfuR1v"></div>
+
+            <input type="submit" value="submit">
+
+
+        </form>
+    </div>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init({
+            offset: 400,
+            duration: 1000,
+        });
+    </script>
+
+</body>
+
+
+
+
+</body>
+
+</html>
